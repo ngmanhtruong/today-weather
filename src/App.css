@@ -1,0 +1,10 @@
+.app {
+  width: 100%
+}
+.gray {
+  color: var(--gray);
+}
+
+header h3 {
+  margin-bottom: 0;
+}

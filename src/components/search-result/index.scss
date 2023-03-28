@@ -1,0 +1,29 @@
+.search-result {
+  padding-left: 60px;
+
+  &__container {
+    display: flex;
+  }
+
+  &__properties {
+    min-width: 120px;
+    color: var(--gray);
+  }
+
+  &__not-found {
+    border: 1px solid red;
+    background-color: #fdd;
+    color: var(--dark);
+    padding: 0 8px;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .search-result {
+    padding-left: 0px;
+  }
+}
